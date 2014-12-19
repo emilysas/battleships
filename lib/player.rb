@@ -4,11 +4,12 @@ require_relative 'game'
 
 class Player
 
-  attr_reader :name
+  attr_reader :name, :board, :ships
 
-  def initialize(name, board)
+  def initialize(name, board, ships)
     @board = board
     @name = name
+    @ships = [ships]
   end
 
   def place(cell, ship)

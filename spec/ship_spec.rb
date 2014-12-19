@@ -19,7 +19,7 @@ describe Ship do
   end
 
   it 'should create a destroyer sized 3' do
-    expect(Ship.destroyer.size).to eq 3
+    expect(Destroyer.size).to eq 3
   end
 
 end
