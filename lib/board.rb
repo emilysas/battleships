@@ -47,9 +47,9 @@ class Board
   end
 
   def outside_grid?(cell, ship, orientation)
-    chars = cell.to_s.split(//)
-    ('j'.ord + 1) - chars[0].ord < ship.size && orientation == "vertical"
-    return true if (11 - chars[1].to_i) < ship.size && orientation == "horizontal"
+    letnum = cell.to_s.chars
+    ('j'.ord + 1) - letnum[0].ord < ship.size && orientation == "vertical"
+    (11 - letnum[1].to_i) < ship.size && orientation == "horizontal"
   end
 
 end
