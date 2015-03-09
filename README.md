@@ -11,7 +11,7 @@ I paired with [Matteo Manzo](https://github.com/matteomanzo)
 * Rspec
 
 ##Lessons Learned
-The point of this project was to continue using Ruby and OOD baring in mind the Solid Principles
+The point of this project was to continue using Ruby and OOD baring in mind the Solid Principles; design was very important for this project.
 
 
 ## Domain Model / CRC
